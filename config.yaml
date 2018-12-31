@@ -1,0 +1,18 @@
+baseURL: http://something-fresh.org/
+languageCode: en-us
+title: Hugo Fresh Theme
+theme: hugo-fresh
+
+params:
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: Innovative. Creative. Mobile.
+    # Hero subtitle (optional)
+    subtitle: Polymorph Solutions
+    # Hero image (from /images/___)
+    image: screenshots/iphonex.png
+    # Footer logos (from /images/logos/clients/___.svg)
+    

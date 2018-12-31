@@ -1,0 +1,25 @@
+{{- $hero := .Site.Params.hero }}
+{{- $clientLogos := index $hero "clientlogos" }}
+<div class="hero-foot mb-20">
+  <div class="container">
+    <div class="tabs is-centered">
+      <ul>
+        <li>Check out the following Apps</li>
+        <li>
+          <a href="http://pacecalculator.com.au">Pace Calculator</a>
+        </li>
+        <li>
+          <a href="https://itunes.apple.com/au/app/aussie-public-holidays/id505426338?mt=8">Aussie Public Holidays</a>
+        </li>
+
+        {{- range $clientLogos }}
+        <li>
+          <a>
+            <img class="partner-logo" src="{{ printf "/images/logos/clients/%s.svg" . | relURL }}">
+          </a>
+        </li>
+        {{- end }}
+      </ul>
+    </div>
+  </div>
+</div>
