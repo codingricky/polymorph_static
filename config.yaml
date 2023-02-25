@@ -2,6 +2,7 @@ baseURL: https://codingricky.github.io/polymorph_static/
 languageCode: en-us
 title: Polymorph Solutions
 theme: hugo-fresh
+publishDir: docs
 
 params:
   font:
